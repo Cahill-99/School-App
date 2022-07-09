@@ -43,9 +43,9 @@ body {
 
   grid-template-areas: 
   "nmb nmb . . . . . . . . . ."
-  "nmb nmb . . . . . . . qb qb qb"
-  "nmb nmb . . . . . . . qb qb qb"
-  "nmb nmb . sg sg sg sg sg sg qb qb qb"
+  "nmb nmb . stg stg stg stg stg stg qb qb qb"
+  "nmb nmb . stg stg stg stg stg stg qb qb qb"
+  "nmb nmb . stg stg stg stg stg stg qb qb qb"
   "nmb nmb . sg sg sg sg sg sg qb qb qb"
   "nmb nmb . sg sg sg sg sg sg qb qb qb"
   "nmb nmb . sg sg sg sg sg sg qb qb qb"
@@ -70,6 +70,11 @@ body {
 .question-board{
   background-color:red;
   grid-area:qb;
+}
+
+.status-group{
+  background-color: green;
+  grid-area:stg;
 }
 
 
