@@ -75,6 +75,40 @@ body {
 .status-group{
   background-color: green;
   grid-area:stg;
+  display:grid;
+  grid-template-columns:
+  [col-start] 1fr
+  [col-2] 2fr
+  [col-end];
+
+  grid-template-rows: 
+  1fr
+  1fr;
+
+  grid-template-areas: 
+  "db pw"
+  "db nw"
+  ;
 }
+
+.date-block{
+  background-color:black;
+  height: 100%;
+  width: 100%;
+  grid-area:db;
+}
+
+.status-right-wrapper{
+  background-color:lightgray;
+}
+
+.progress-wrapper{
+  grid-area:pw;
+}
+
+.notices-wrapper{
+  grid-area:nw
+}
+
 
 
