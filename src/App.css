@@ -55,11 +55,88 @@ body {
 
 }
 
+
+
+
+
+
+                                /* SIDE MENU */
+
 .navmenu-background{
   background-color:grey;
   grid-area:nmb;
   height:100%;
   width:100%;
+  display: grid;
+  grid-template-columns:
+  [col-start] 1fr
+  [col-end];
+
+  grid-template-rows: 
+  3fr
+  1fr
+  1fr
+  1fr
+  1fr
+  1fr
+  3fr;
+
+  grid-template-areas: 
+  "wb"
+  "tb"
+  "ib"
+  "nb"
+  "mb"
+  "sb"
+  "."
+  ;
+
+}
+
+.welcome-block{
+  width:100%;
+  height:100%;
+  background-color:purple;
+  grid-area:wb;
+}
+
+.task-button{
+  width:100%;
+  height:100%;
+  background-color:bisque;
+  grid-area:tb
+}
+
+.inbox-button{
+  width:100%;
+  height:100%;
+  background-color:bisque;
+  grid-area:ib
+}
+
+.notif-button{
+  width:100%;
+  height:100%;
+  background-color:bisque;
+  grid-area:nb
+}
+
+.marks-button{
+  width:100%;
+  height:100%;
+  background-color:bisque;
+  grid-area:mb
+}
+
+.settings-button{
+  width:100%;
+  height:100%;
+  background-color:bisque;
+  grid-area:sb
+}
+
+h4{
+  font:18px Myriad pro;
 }
 
 .scroll-group{
