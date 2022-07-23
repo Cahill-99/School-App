@@ -101,6 +101,9 @@ body {
 }
 
 .task-button{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
   width:100%;
   height:100%;
   background-color:bisque;
@@ -108,6 +111,9 @@ body {
 }
 
 .inbox-button{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
   width:100%;
   height:100%;
   background-color:bisque;
@@ -115,6 +121,9 @@ body {
 }
 
 .notif-button{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
   width:100%;
   height:100%;
   background-color:bisque;
@@ -122,6 +131,9 @@ body {
 }
 
 .marks-button{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
   width:100%;
   height:100%;
   background-color:bisque;
@@ -129,10 +141,20 @@ body {
 }
 
 .settings-button{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
   width:100%;
   height:100%;
   background-color:bisque;
   grid-area:sb
+}
+
+.navicon{
+  width:25px;
+  height:25px;
+  margin-left:15px;
+  margin-right:15px;
 }
 
 h4{
